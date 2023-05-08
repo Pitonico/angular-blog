@@ -1,0 +1,23 @@
+.content_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.content_photo > img {
+  border: 5px solid rgb(192, 191, 191);
+  border-radius: 5px;
+  width: 500px;
+  height: 300px;
+}
+
+.content_description > p {
+  color: rgb(156, 156, 156);
+  margin: 20px;
+  text-align: justify;
+}
+
+.content_title {
+  margin-top: 10px;
+}

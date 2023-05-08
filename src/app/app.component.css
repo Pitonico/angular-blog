@@ -1,0 +1,11 @@
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: end;
+  padding: 20px;
+}
+

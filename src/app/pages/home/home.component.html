@@ -1,0 +1,21 @@
+<div class="articles_container">
+  <div class="articles_main">
+    <app-big-card
+      id="1"
+      cardPhoto="https://cdn.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular.png"
+      cardTitle="Angular 2+"
+      cardDescripton="Angular (Angular 2+) é uma plataforma de aplicações web de código-fonte aberto e
+        front-end baseado em TypeScript liderado pela Equipe Angular do Google e por uma comunidade de
+        indivíduos e corporações. Angular é uma reescrita completa do AngularJS, feito pela mesma equipe
+        que o construiu."
+    ></app-big-card>
+  </div>
+  <div class="articles_others">
+      <app-small-card
+        *ngFor="let card of cardsList"
+        id="{{ card.id }}"
+        cardPhoto="{{ card.photo }}"
+        cardTitle="{{ card.title }}">
+      </app-small-card>
+  </div>
+</div>

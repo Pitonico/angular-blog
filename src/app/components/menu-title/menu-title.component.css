@@ -1,0 +1,27 @@
+.menu-title_container{
+  color: white;
+  margin-bottom: 20px;
+  padding: 10px 0 20px 0;
+}
+
+.menu-title_container > h1 {
+  margin: 15px 0;
+  font-size: 135px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 1233px) {
+  .menu-title_container > h1 {
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .menu-title_container > h1 {
+    font-size: 40px;
+  }
+}
+
